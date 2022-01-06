@@ -1,0 +1,1 @@
+App to play Rock, Scissors Paper Against The Computer. Will use a script.js file (to be added), GUI (to be added), see algorithm.txt for pseudocode. 
