@@ -65,7 +65,7 @@ function playRound() {
 }
 
 
-function game() {
+/*function game() {
   wins = 0;
   losses = 0;
   for (let i = 0; i < 5; i++) {
@@ -82,5 +82,6 @@ function game() {
 }
 
 game();
+/*
 
 
