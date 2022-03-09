@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+  </style>
+  <script src="./script.js" defer></script>
+  <script src="https://kit.fontawesome.com/a25906fcbb.js" crossorigin="anonymous"></script>
+</head>
 
-    </style>
-    <script src="https://kit.fontawesome.com/a25906fcbb.js" crossorigin="anonymous"></script>
-    <script src="./script.js" defer></script>
-  </head>
+<body>
+  <h1>Rock Paper Scissors</h1>
 
-  <body>
-    <h1>Rock Paper Scissors</h1>
-
-    <h2>Meet Binky.</h2>
-    <img src="img/tra-my-BjL7XCugMNY-unsplash.jpg" alt="A white cat with blue eyes stares at you from a laptop keyboard." style="width: 400px; height: 250px;">
-    <h2>Five times World Champion</h2>
-    <h2></h2>
+  <h2>Meet Binky.</h2>
+  <img src="img/tra-my-BjL7XCugMNY-unsplash.jpg" alt="A white cat with blue eyes stares at you from a laptop keyboard."
+    style="width: 400px; height: 250px;">
+  <h2>Five times World Champion.</h2>
+  <h2></h2>
+  <div class=button_bar>
     <div class="buttons">
-      <button id="playerrock"><i class="fas fa-hand-rock"></i><br>Rock</button>
-      <button id="playerpaper"><i class="fas fa-hand-paper"></i><br>Paper</button>
-      <button id="playerscissors"><i class="fas fa-hand-scissors"></i>Scissors</button>
-	  
-    </div>
-    <div class= 'restart'>
-    <button>
-    Play Again
-    </button>
-    </div>
-    <div id="results">
-      <h3>
-        Binky wants to play... First to 5, you're blue.
-      </h3>
+      <button id="playerrock"><i class="fa-solid fa-hand-fist"></i><br>Rock</button>
+      <button id="playerpaper"><i class="fa-solid fa-hand"></i><br>Paper</button>
+      <button id="playerscissors"><i class="fa-solid fa-hand-scissors"></i><br>Scissors</button>
     </div>
     <div class="binkybtn">
-      <button class ="binkyrock"><i class="fas fa-paw"></i><br>Rock</button>
-      <button class ="binkypaper"><i class="fas fa-paw"></i><br>Paper</button>
-      <button class ="binkyscissors"><i class="fas fa-paw"></i><br>Scissors</button>
+      <button class="binkyrock"><i class="fa-solid fa-paw"></i><br>Rock</button>
+      <button class="binkypaper"><i class="fa-solid fa-paw"></i><br>Paper</button>
+      <button class="binkyscissors"><i class="fa-solid fa-paw"></i><br>Scissors</button>
     </div>
-  </body>
+  </div>
+
+  <div class='restart'>
+    <button>
+      Play Again
+    </button>
+  </div>
+  <div id="results">
+    <h2>
+      Binky wants to play... 5 rounds, you're blue.
+    </h2>
+  </div>
+  <div id="running_total">
+    <p>Hooman: <span class="player_score">0</span></p>
+    <p>Binky: <span class="binky_score">0</span></p>
+  </div>
+
+</body>
 
 </html>
