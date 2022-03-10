@@ -1,1 +1,1 @@
-App to play Rock, Scissors Paper. 
+App to play Rock, Paper, Scissors. 
