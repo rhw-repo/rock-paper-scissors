@@ -1,1 +1,1 @@
-App to play Rock, Scissors Paper Against The Computer. GUI to be added.
+App to play Rock, Scissors Paper. 
